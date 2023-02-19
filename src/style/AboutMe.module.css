@@ -1,0 +1,44 @@
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.myPhoto {
+    border-radius: 5px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.458);
+}
+
+
+.gif {
+    width: 100px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+.list {
+    margin-left: 30px;
+}
+
+.myBackground {
+    max-width: 815px;
+    word-wrap:break-word;
+}
+
+.myDevJourney {
+    max-width: 1285px;
+    word-wrap: break-word;
+}
+
+.aboutme h2 {
+    margin-bottom: 7px;
+    color: goldenrod;
+    text-shadow: 10px 10px 10px black;
+}

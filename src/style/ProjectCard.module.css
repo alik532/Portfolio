@@ -1,0 +1,78 @@
+.projectCard {
+    z-index: -0;
+    width: 450px;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+    transition: 0.15s;
+    border-radius: 10px;
+    border: goldenrod solid 2px;
+    color: white;
+}
+
+.cover {
+    border-radius: 10px;
+    position: absolute;
+    transition: 0.15s ease;
+    width: 450px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.title {
+    z-index: 1;
+    transition: 0.15s ease;
+    position: absolute;
+    top: -45px;
+}
+
+.projectCard:hover .cover {
+    background-color: rgba(0, 0, 0, 0.674);
+}
+
+.projectCard:hover .title {
+    top: 20px;
+    left: 10px;
+}
+
+.button {
+    transition: 0.15s;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #E8E8E8;
+    border: 1px goldenrod solid;
+    position: relative;
+    font-weight: 500;
+}
+
+.buttonContainer {
+    transition: 0.15s;
+    filter:opacity(0);
+    width: 450px;
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.projectCard:hover .buttonContainer {
+    filter: opacity(1);
+    gap: 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #aeaeae;
+    font-size: 14px;
+}
+.button > a:any-link {
+    text-decoration: none;
+    color: black;
+}
+
+.button > a {
+    transform: scale(1.5);
+}

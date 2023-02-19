@@ -1,0 +1,17 @@
+.contacts {
+    color: white;
+    margin-left: 120px;
+}
+
+.telegram > a {
+    color: white;
+}
+
+.contacts h2 {
+    color: goldenrod;
+    font-size: 20px;
+}
+
+.contacts > div {
+    margin-bottom: 30px;
+}
