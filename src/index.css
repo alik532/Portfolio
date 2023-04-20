@@ -8,3 +8,13 @@
 body {
    background-color: #E8E8E8;
 }
+
+.root {
+  width: 100%;
+}
+
+@media (max-width: 1578px) {
+  .root {
+    width: 120vw;
+  }
+}

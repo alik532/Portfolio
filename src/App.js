@@ -33,7 +33,7 @@ function App() {
   const scrollPosition = useScrollPosition()
 
   return (
-    <div style={scrollPosition < 1 ? {backgroundColor: `rgba(25, 28, 41, ${scrollPosition})`} : {background: "#191c29"}}>
+    <div className='app' style={scrollPosition < 1 ? {backgroundColor: `rgba(25, 28, 41, ${scrollPosition})`} : {background: "#191c29"}}>
       <Header />
       <div className="container" >
         <div className='content' >
