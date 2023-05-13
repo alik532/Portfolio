@@ -7,6 +7,7 @@ import apiLogo from '../components/UI/apiLogo.svg'
 import firebaseLogo from '../components/UI/firebaseLogo.svg'
 import openseaImg from '../images/opensea.png'
 import travel from '../images/travel.png'
+import vReality from '../images/vReality.png'
 
 export const projectsData = [
     {title: "React E-Commerce app", stack: [{name: 'react', logo: reactLogo}, {name: 'redux', logo: reduxLogo}], description: "React Redux E-commerce project with ready-made functionality for adding a product and a shopping cart", 
@@ -18,5 +19,7 @@ export const projectsData = [
     {title: "NFT-Market", stack: [{name: 'react', logo: reactLogo}, {name: 'redux', logo: reduxLogo}, {name: 'rest API', logo: apiLogo}, {name: "firebase", logo: firebaseLogo}], description: "The nft marketplace app using react redux with firebase authorization, also cart, fetching data, pagination functionality, data sorting functionality.", 
     githubLink: "https://github.com/alik532/NFT-Marketplace", appLink: "https://effortless-heliotrope-6a592a.netlify.app/", img: openseaImg},
     {title: "Travel App", stack: [{name: 'react', logo: reactLogo}], description: "The travel app using ReactJS and responsive layout.", 
-    githubLink: "https://github.com/alik532/travel_react_app", appLink: "https://sensational-mandazi-84e8e5.netlify.app", img: travel},
+    githubLink: "https://github.com/alik532/travel_react_app", appLink: "https://marvelous-druid-faab2f.netlify.app/", img: travel},
+    {title: "VR App", stack: [{name: 'react', logo: reactLogo}], description: "The Virtual Reality app using ReactJS and responsive layout and optimized for mobile devices.", 
+    githubLink: "https://github.com/alik532/v-reality-react-app", appLink: "https://sensational-mandazi-84e8e5.netlify.app", img: vReality},
 ]
